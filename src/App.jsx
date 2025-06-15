@@ -54,18 +54,12 @@ function App() {
   return (
     <div className={`min-vh-100 d-flex flex-column ${backgroundClass}`}>
       <header className="text-center my-3">
-<div className="d-inline-block p-1 rounded-circle" style={{
-  background: 'linear-gradient(135deg, #ffffff 0%, #e0f7fa 100%)',
-  border: '2px solid #00bcd4',
-  boxShadow: '0 4px 10px rgba(0, 188, 212, 0.3)'
-}}>
   <img
     src="/src/images/1.png"
     alt="Mi Logotipo"
     className="rounded-circle"
     style={{ width: "100px", height: "100px" }}
   />
-</div>
       </header>
       <h1 className="text-center mb-4">🌤️ Pronóstico del Tiempo</h1>
       <SearchBar onSearch={handleSearch} />
