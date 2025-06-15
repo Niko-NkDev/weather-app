@@ -1,0 +1,76 @@
+.bg-morning {
+  background: linear-gradient(rgba(255, 223, 123, 0.6), rgba(255, 223, 123, 0.6)),
+              url('/src/images/mañana.jpg') center/cover no-repeat;
+  color: #333;
+}
+.bg-afternoon {
+  background: linear-gradient(rgba(80, 180, 255, 0.5), rgba(80, 180, 255, 0.5)),
+              url('/src/images/afternoon.jpg') center/cover no-repeat;
+  color: white;
+}
+.bg-evening {
+  background: linear-gradient(rgba(255, 120, 150, 0.5), rgba(255, 120, 150, 0.5)),
+              url('/src/images/evening.jpg') center/cover no-repeat;
+  color: white;
+}
+.bg-night {
+  background: linear-gradient(rgba(20, 30, 50, 0.7), rgba(20, 30, 50, 0.7)),
+              url('/src/images/night.jpg') center/cover no-repeat;
+  color: #f1f1f1;
+}
+
+
+.bg-night {
+  color: #f1f1f1;
+}
+
+.bg-night .card,
+.bg-night .form-control,
+.bg-night .btn,
+.bg-night input,
+.bg-night h1,
+.bg-night h2,
+.bg-night p,
+.bg-night label {
+  color: #f1f1f1 !important; 
+  background-color: transparent;
+}
+
+.bg-night .form-control::placeholder {
+  color: #ccc;
+}
+
+.bg-night .btn {
+  background-color: #444;
+  border-color: #666;
+}
+
+.card {
+  border-radius: 1.5rem;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+footer a {
+  font-size: 1.5rem;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+footer a:hover {
+  transform: scale(1.2);
+  color: #0d6efd;
+}
+
+
